@@ -4,8 +4,8 @@
  * Change your CRM instance URL and accessKey
  */
 $username = 'admin'; // You may use any user
-$accessKey = 'YuC6SLwRzU10TgJh'; // Obtain from CRM > My Preference > Access Key  (Use admin user to get all privileges
-$endpointurl = 'http://localhost/vt65/webservice.php'; // You crm url prepended with webservice.php
+$accessKey = 'tmx6yuW7ABAs1MFZ';//YuC6SLwRzU10TgJh'; // Obtain from CRM > My Preference > Access Key  (Use admin user to get all privileges
+$endpointurl = 'http://localhost/crm/v71dev/webservice.php'; // You crm url prepended with webservice.php
 
 /**
  * Getting challenge token - Challenge response authentication to avoid eavesdropping

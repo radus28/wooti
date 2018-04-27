@@ -41,3 +41,18 @@ if ($fieldInstance === false) {
     $blockInstance->addField($fieldInstance);
 }
 
+$moduleInstance = Vtiger_Module::getInstance('Contacts');
+$blockInstance = Vtiger_Block::getInstance('LBL_CUSTOM_INFORMATION', $moduleInstance);
+
+$fieldInstance = Vtiger_Field::getInstance("woo_id", $moduleInstance);
+if ($fieldInstance === false) {
+    $fieldInstance = new Vtiger_Field();
+    $fieldInstance->name = 'woo_id';
+    $fieldInstance->label = 'LBL_WOOCOMMERCE_ID';
+    $fieldInstance->table = 'vtiger_contactdetails';
+    $fieldInstance->column = 'woo_id';
+    $fieldInstance->columntype = 'varchar(100)';
+    $fieldInstance->uitype = 1;
+    $fieldInstance->typeofdata = 'V~O';
+    $blockInstance->addField($fieldInstance);
+}

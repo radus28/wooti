@@ -8,5 +8,6 @@ include_once('vtlib/Vtiger/Block.php');
 require 'modules/com_vtiger_workflow/VTEntityMethodManager.inc';
 $emm = new VTEntityMethodManager($adb);
 $emm->addEntityMethod("Products", "productsToWoo", "woo28/out/products.php", "productsToWoo");
+$emm->addEntityMethod("Contacts", "customersToWoo", "woo28/out/customer.php", "customersToWoo");
 
 echo "Done";
