@@ -5,7 +5,9 @@
  */
 $username = 'admin'; // You may use any user
 $accessKey = 'tmx6yuW7ABAs1MFZ';//YuC6SLwRzU10TgJh'; // Obtain from CRM > My Preference > Access Key  (Use admin user to get all privileges
-$endpointurl = 'http://localhost/crm/v71dev/webservice.php'; // You crm url prepended with webservice.php
+$vtigerUrl = 'http://localhost/crm/v71dev'; //CRM URL
+
+$endpointurl = $vtigerUrl.'/webservice.php'; // You crm url prepended with webservice.php
 
 /**
  * Getting challenge token - Challenge response authentication to avoid eavesdropping
