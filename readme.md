@@ -39,7 +39,8 @@ _______________________
         1. products.php - This is the custom function file run through vtiger workflow to sync **Products** to wooCommerce
         2. customer.php - This is the custom function file run through vtiger workflow to sync **Customers** to wooCommerce
     3. woo/
-        1. client.php 
+        1.  Move into this folder and run `composer install`
+        2. client.php 
             * Set your woocommerce URL and api keys here
 
                     //Consumer Key of your WooCommerce API
