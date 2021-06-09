@@ -70,3 +70,5 @@ _______________________
         2. A custom function will be listed under Product workflow
         3. Add a work-flow using above custom function to send products (condition : active = yes)
 
+6. To upload images to `Woo`, use  URLs of vtiger product images. Example http://example2.com/storage/2021/January/week2/564_listening_room.jpg. To achieve this, you should have the CRM's storage folder public. 
+
